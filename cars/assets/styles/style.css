@@ -1,0 +1,37 @@
+body {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Belanosima", sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  text-align: center;
+  font-style: italic;
+  color: #3f89e9;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  font-size: 24px;
+  list-style: none;
+  color: #1469d8;
+}
+
+img {
+  width: 30%;
+}
+
+p {
+  font-size: 20px;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */

@@ -365,3 +365,23 @@ console.log('задание 29', square );
 const square2 = new Square(5);
 console.log('задание 30', square2.calculateArea() );
 
+
+function sayHello() {
+	console.log(`Hello, ${this.name}!`);
+  }
+  
+  let name  = "Nina";
+  
+  const person3 = {
+	name: "Alice",
+	greet: sayHello
+  };
+  
+  const person4 = {
+	name: "Bob",
+	greet: sayHello
+  };
+  
+  sayHello();      //?
+  person3.greet(); //?
+  person4.greet(); //?
